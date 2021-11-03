@@ -71,7 +71,7 @@ background: linear-gradient(104deg, rgba(255,214,28,1) 22%, rgba(255,141,0,1) 84
       <div class="col-sm-8 col-md-9 col-lg-9 col-12">
 
         <div class="card mb-5 primaryCard">
-          <?php if(!empty($latestArticle)){?>
+          <?php if($latestArticle != "null"){?>
 
           <a href="<?php echo base_url().'blogpost/'.$latestArticle['id'] ?>"><img
               src="<?php echo base_url().'public/uploads/articles/'.$latestArticle['image'] ?>"
@@ -101,18 +101,13 @@ background: linear-gradient(104deg, rgba(255,214,28,1) 22%, rgba(255,141,0,1) 84
           </div>
           <?php }else{ ?>
 
-          <img src="<?php echo base_url().'public/uploads/articles/No-Image.jpg' ?>" class="card-img-top datnotfoundImg"
+          <img src="<?php echo base_url().'public/uploads/articles/unnamed.png' ?>" class="card-img-top"  style="width: 100%; height: 280px; padding: 20px;"
             alt="..." />
-          <div class="card-body">
-            <h5 class="card-title text-center" style="font-size: 50px; ">
-              DATA NOT FOUND
-            </h5>
-          </div>
           <?php } ?>
         </div>
 
         <div class="row">
-          <?php  if(!empty($allArticles)){ 
+          <?php  if($allArticles){ 
                     foreach($allArticles as $article){ ?>
           <div class="col-sm-12 col-md-6 col-lg-6 col-12 mb-5 ">
             <div class="card secondaryCard">
@@ -150,14 +145,14 @@ background: linear-gradient(104deg, rgba(255,214,28,1) 22%, rgba(255,141,0,1) 84
       </div>
 
       <div class="col-sm-4 col-md-3 col-lg-3 col-12 mb-4">
-        <?php  if(!empty($category)){ 
+        <?php  if($category){ 
              foreach($category as $cats){
          if($cats['status'] == 1){ ?>
                <div class="list-group mb-5 mt-5" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
           <a href="#" class="list-group-item list-group-item-action bg-danger text-uppercase text-center" style="color:white ; letter-spacing: 2px;" aria-current="true">
             <?php echo $cats['name']; ?>
           </a>
-           <?php if(!empty($sidemenu)){
+           <?php if($sidemenu){
           foreach($sidemenu as $sideVal){ 
             if($sideVal['status'] == 1 && $sideVal['category_id'] == $cats['id'])  { ?>
           <a href="<?php echo base_url().'blogpost/'.$sideVal['id'] ?>" class="list-group-item list-group-item-action"> <?php echo $sideVal['title']; ?></a>

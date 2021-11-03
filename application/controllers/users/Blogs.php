@@ -10,14 +10,17 @@ class Blogs extends CI_Controller {
     public function index()
 	{
 		$this->load->helper('text');
-		$data['category'] = $this->blog->getCategory();
-		$data['latestArticle'] = $this->blog->get_article();
-		$id = $data['latestArticle']['id'];
-		$data['allArticles'] = $this->blog->getAllArticles($id);
-    $data['sidemenu'] = $this->blog->getSideMenu();
-    $data['act'] = "blog";
-    $data['subAct'] = "main";
-    $this->load->view('users/blogs/blogs', $data);
+        $data['allArticles'] ='';
+        $data['category'] = $this->blog->getCategory();
+        $data['latestArticle'] = $this->blog->get_article();
+        if($data['latestArticle'] != "null"){
+            $id = $data['latestArticle']['id'];
+            $data['allArticles'] = $this->blog->getAllArticles($id);
+        }
+        $data['sidemenu'] = $this->blog->getSideMenu();
+        $data['act'] = "blog";
+        $data['subAct'] = "main";
+        $this->load->view('users/blogs/blogs', $data);
 	}
 
 	public function getCategoryArticle(){
