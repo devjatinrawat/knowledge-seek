@@ -77,14 +77,13 @@ So we Have come With the Solution for this problems, That is "Knowlege Seek" .
         <div class="row">
           <!-- Team item-->
 
-          <div class="col-lg-4 col-sm-4 mb-4" data-aos="fade-right" data-aos-duration="2000">
+         <div class="col-lg-4 col-sm-4 mb-4" data-aos="fade-right" data-aos-duration="2000">
             <figure class="snip1515">
-              <div class="profile-image"><img src="<?php echo base_url().'public/images/sandeep.jpg'; ?>"
+              <div class="profile-image"><img src="<?php echo base_url().'public/images/avatar.png'; ?>"
                   alt="sample83" /></div>
               <figcaption style="background-color:black;">
                 <h3>Sandeep Mandloi</h3>
-                <h4>Technical Team</h4>
-                <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                <h4>Penetration Tester, Full Stack Developer</h4>
                 <div class="icons">
                   <!-- <a href="#"><i class="fab fa-facebook-square" style="font-size:30px;"></i></i></a> -->
                   <a href="https://instagram.com/mandloi_g_129?utm_medium=copy_link"> <i class="fab fa-instagram-square" style="font-size:30px"></i></a>
@@ -99,12 +98,11 @@ So we Have come With the Solution for this problems, That is "Knowlege Seek" .
           <!-- Team item-->
           <div class="col-lg-4 col-sm-4 mb-4" data-aos="zoom-out-up" data-aos-duration="1000">
             <figure class="snip1515">
-              <div class="profile-image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample83.jpg"
+              <div class="profile-image"><img src="<?php echo base_url().'public/images/avatar.png'; ?>"
                   alt="sample83" /></div>
               <figcaption style="background-color:black">
                 <h3>Aman Pandagre</h3>
-                <h4>Technical Team</h4>
-                <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                <h4>Full Stack Web Developer</h4>
 
                 <div class="icons">
                   <!-- <a href="#"><i class="fab fa-facebook-square" style="font-size:30px;"></i></i></a> -->
@@ -122,8 +120,8 @@ So we Have come With the Solution for this problems, That is "Knowlege Seek" .
                   alt="sample83" /></div>
               <figcaption style="background-color:black;">
                 <h3>Kapil Prajapati</h3>
-                <h4>Technical Team</h4>
-                <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                <h4>Full Stack Web Developer</h4>
+    
                 <div class="icons">
                   <a href="https://www.facebook.com/kapil.prajapati.5070276"><i class="fab fa-facebook-square" style="font-size:30px;"></i></i></a>
                   <a href=""> <i class="fab fa-instagram-square" style="font-size:30px"></i></a>
@@ -141,12 +139,11 @@ So we Have come With the Solution for this problems, That is "Knowlege Seek" .
         <div class="row">
           <div class="col-lg-6 col-sm-6 mb-4" data-aos="fade-right" data-aos-duration="2000">
             <figure class="snip1515">
-              <div class="profile-image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample83.jpg"
+              <div class="profile-image"><img src="<?php echo base_url().'public/images/mukan.jpg'; ?>"
                   alt="sample83" /></div>
               <figcaption style="background-color:black;">
                 <h3>Muskan Mishra</h3>
-                <h4>Technical Team</h4>
-                <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                <h4>Java Full Stack Web Developer</h4>
                 <div class="icons">
                   <a href="https://www.facebook.com/profile.php?id=100040699641422"><i class="fab fa-facebook-square" style="font-size:30px;"></i></i></a>
                   <a href="https://www.instagram.com/tinker_m.m?r=nametag"> <i class="fab fa-instagram-square" style="font-size:30px"></i></a>
@@ -159,12 +156,11 @@ So we Have come With the Solution for this problems, That is "Knowlege Seek" .
 
           <div class="col-lg-6 col-sm-6 mb-4" data-aos="fade-left" data-aos-duration="2000">
             <figure class="snip1515">
-              <div class="profile-image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample83.jpg"
+              <div class="profile-image"><img src="<?php echo base_url().'public/images/jatin.png'; ?>"
                   alt="sample83" /></div>
               <figcaption style="background-color:black;">
                 <h3>Jatin Rawat</h3>
-                <h4>Teachnical Team</h4>
-                <p>I'm killing time while I wait for life to shower me with meaning and happiness.</p>
+                <h4>Web Developer</h4>
                 <div class="icons">
                   <a href="https://www.facebook.com/profile.php?id=100053755275800"><i class="fab fa-facebook-square" style="font-size:30px;"></i></i></a>
                   <a href="https://www.instagram.com/god_realization_/"> <i class="fab fa-instagram-square" style="font-size:30px"></i></a>

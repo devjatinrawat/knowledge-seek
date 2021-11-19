@@ -28,7 +28,9 @@
     //   height: '200px',
     //   focus: true
     // })
-    CKEDITOR.replace('discription');
+    CKEDITOR.replace('discription',{
+      extraPlugins: 'justify',
+    });
   });
 </script>
 </body>

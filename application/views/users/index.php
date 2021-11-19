@@ -16,13 +16,14 @@
 							</a>
 						</div>
 						<div class="extra-div col-lg-2 col-md-2 col-12" id="s2">
-							<a href="<?php echo base_url().'papers' ?>"><i class="fa-3x fas fa-scroll"
+							<a href="<?php echo base_url().'books' ?>"><i class="fa-3x fas fa-book"
 									aria-hidden="true"></i>
-								<h2>PAPERS</h2>
+								<h2>BOOKS</h2>
 							</a>
 						</div>
+						<!-- <i class="fas fa-scroll"></i> -->
 						<div class="extra-div col-lg-2 col-md-2 col-12" id="s3">
-							<a href="<?php echo base_url().'books' ?>"><i class="fa-3x fas fa-graduation-cap"
+							<a href="<?php echo base_url().'blogs' ?>"><i class="fa-3x fas fa-graduation-cap"
 									aria-hidden="true"></i>
 								<h2>BLOGS</h2>
 							</a>

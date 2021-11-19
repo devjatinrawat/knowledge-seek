@@ -3,9 +3,9 @@
       
         <div class="rounded-social-buttons">
                     <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="social-button twitter" href="mailto:knowledgeseek21@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                    <!--<a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>-->
+                    <a class="social-button instagram" href="https://www.instagram.com/knowledge_seek21/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
         <div class="outer-footer">
             <p>Copyright &copy; 2021 KnowledgeSeek All Rights Reserved.</p>
