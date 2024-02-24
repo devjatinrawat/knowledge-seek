@@ -1,0 +1,160 @@
+repo_name: devjatinrawat/knowledge-seek
+report_id: 6d3a333e8fb6b50c318057238ac3003b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-24T11:00:44+00:00'
+requested_by: devjatinrawat
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek
+  detection_source: Repo Metadata
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/daterangepicker/bower.json
+  detection_source: public/admin/plugins/daterangepicker/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek
+  detection_source: Repo Metadata
+- name: RequireJS
+  description: JavaScript file and module loader
+  website_url: http://requirejs.org/
+  version: 2.3.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/852/1781835.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/raphael/bower.json
+  detection_source: public/admin/plugins/raphael/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/raphael/webpack.config.js
+  detection_source: public/admin/plugins/raphael/webpack.config.js
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/daterangepicker/bower.json
+  detection_source: public/admin/plugins/daterangepicker/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: Raphael
+  description: JavaScript library that draws Vector graphics for web sites
+  website_url: http://raphaeljs.com/
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3044/72f4ddedbb738d7d21702bb9b57d7754_400x400.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/raphael/bower.json
+  detection_source: public/admin/plugins/raphael/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: eve-raphael
+  description: Simple custom events
+  package_url: http://bower.io/eve-raphael
+  version: 0.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/raphael/bower.json
+  detection_source: public/admin/plugins/raphael/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: moment
+  description: Parse
+  package_url: http://bower.io/moment
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/daterangepicker/bower.json
+  detection_source: public/admin/plugins/daterangepicker/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
+- name: requirejs
+  description: A file and module loader for JavaScript
+  package_url: http://bower.io/requirejs
+  version: 2.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/devjatinrawat/knowledge-seek/blob/master/public/admin/plugins/raphael/bower.json
+  detection_source: public/admin/plugins/raphael/bower.json
+  last_updated_by: Aman Pandagre
+  last_updated_on: 2021-10-27 19:22:53.000000000 Z
